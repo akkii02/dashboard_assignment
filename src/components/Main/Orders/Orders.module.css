@@ -1,0 +1,25 @@
+.main {
+  width: 90%;
+  height: 50px;
+  margin-top: 7%;
+  margin-bottom: 2%;
+  /* border: black solid 1px; */
+}
+.ul {
+  margin-right: 0;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ul li {
+  list-style-type: none;
+}
+.ul li a {
+  text-decoration: none;
+  color: white;
+}
+.active {
+  border-bottom: 2px solid blue;
+  padding: 5px;
+}

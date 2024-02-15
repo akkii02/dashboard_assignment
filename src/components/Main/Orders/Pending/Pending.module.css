@@ -1,0 +1,97 @@
+.container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+    }
+    
+    .main {
+      width: 95%;
+      height: 60vh;
+      margin: 0 0 0 -50px;
+      background-color: white;
+      margin-top: 15px;
+    }
+    .btn{
+      margin: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: skyblue;
+      color: white;
+    }
+    
+    button.primary {
+      background-color: transparent;
+      color: black;
+      border: black solid 1px;
+    }
+    
+    button.secondary {
+      background-color: transparent;
+      color: black;
+      border: black solid 1px;
+    }
+    
+    button.disabled {
+      background-color: transparent;
+      border: black solid 1px;
+      color: black;
+      cursor: not-allowed;
+    }
+.table {
+      width: 100%;
+      overflow-x: auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+    
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    
+    tbody tr:hover {
+      background-color: #ddd;
+    }
+    .btns{
+      background-color: transparent;
+      border: 2px solid rgb(42, 250, 70);
+      color:  rgb(42, 250, 70);
+    }
+    .tableBtn{
+      display: flex;
+      justify-content: end;
+    }
+    .bt{
+      background-color: transparent;
+      color: gray;
+      border: gray solid 2px; 
+    }
+    .bt:hover{
+      color: blue;
+      border: blue solid 2px; 
+    }
